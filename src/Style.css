@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+}
+
+.logo {
+  position: absolute;
+  width: 130px;
+  height: 50px;
+  padding: 10px 15px;
+  margin-bottom: 40px;
+  margin-top: 5px;
+  margin-left: 10px;
+  background: #FFFFFF;
+  
+}
+
+nav {
+  height: 60px;
+  margin-bottom: 30px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.airbnb-img {
+  width: 495.91px;
+  height: 312px;
+  left: 77px;
+  top: 96px;
+  margin-left: 77px;
+}
+
+h1 {
+  font-size: 48px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: -20px;
+  margin-left: 20px;
+}
+
+p {
+  font-size: 20px;
+  height: 56px;
+  width: 550px;
+  left: 36px;
+  top: 416px;
+  border-radius: nullpx;
+  padding: 10px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card {
+width: 180px;
+font-size: 12px;
+flex: 0 0 auto;        
+display: flex;          
+flex-direction: column;
+margin-top: 30px;
+position: relative;
+}
+
+.card-img {
+  width: 190px;
+  height: 300px;
+  margin-top: 40px;
+  margin-left: 30px;
+  border-radius: 9px;
+}
+
+.metrics {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30px;
+
+}
+
+.star {
+  width: 17px;
+}
+
+.rating, .review-count, .country {
+  margin-left: 2px;
+  font-size: 16px;
+}
+
+.text, .price {
+  font-size: 14px;
+  margin-top: -5px;
+  margin-bottom: -35px;
+}
+
+.card--badge {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
